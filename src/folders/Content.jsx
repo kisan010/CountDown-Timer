@@ -40,7 +40,8 @@ const Content = () => {
          clearInterval(Reffer.current)
         setisActive(false);
         setisPause(true);
-            setTime(null)
+            setTime(null);
+            alert("Time is up");
         }
     }
     useEffect(() => {
